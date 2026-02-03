@@ -7,6 +7,7 @@ from typing import Optional, List, Dict
 
 app = FastAPI(
     title="PhantomNet VPN API",
+    root_path="/vpn",
     description="Backend controller for PhantomNet VPN",
     version="1.1.0"
 )
